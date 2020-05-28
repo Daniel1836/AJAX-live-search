@@ -23,10 +23,7 @@
                         $("#show-list").html('');
                     }
                 });
-                      $(document).on('click', 'a', function(){
-                    $("#search").val($(this).text());
-                    $("#show-list").html('');
-                    });
+                     
                 });
                 </script>
              </head>
